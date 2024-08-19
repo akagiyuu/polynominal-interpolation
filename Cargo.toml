@@ -1,0 +1,24 @@
+[package]
+name = "polynominal-interpolation"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/akagiyuu/polynominal-interpolation"
+homepage = "https://github.com/akagiyuu/polynominal-interpolation"
+description = """
+A library for interpolating a function using polynomial
+"""
+categories = ["math"]
+
+[dependencies]
+itertools = "0.13.0"
+rayon = "1.10.0"
+
+[dev-dependencies]
+divan = "0.1.14"
+rand = "0.8.5"
+
+[[bench]]
+name = "polynomial_interpolation"
+harness = false
