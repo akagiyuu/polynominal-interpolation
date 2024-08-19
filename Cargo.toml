@@ -9,7 +9,8 @@ homepage = "https://github.com/akagiyuu/polynominal-interpolation"
 description = """
 A library for interpolating a function using polynomial
 """
-categories = ["math"]
+categories = ["mathematics"]
+keywords = ["interpolation", "polynomial"]
 
 [dependencies]
 itertools = "0.13.0"
